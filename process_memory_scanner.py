@@ -1,5 +1,5 @@
 import re, yara, psutil,os
-f=open(os.path.dirname(os.path.abspath(__file__))+"/rules/meterpreter_reverse-tcp.yar")
+f=open(os.path.dirname(os.path.abspath(__file__))+"/rules/meterpreter_reverse_tcp.yar")
 rules=yara.compile(file=f)
 f.close()
 for proc in psutil.process_iter():
