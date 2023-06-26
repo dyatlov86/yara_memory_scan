@@ -8,9 +8,9 @@
 
 /* Rule Set ----------------------------------------------------------------- */
 
-rule ___susp_nano {
+rule meterpreter_reverse_tcp {
    meta:
-      description = "susp - file nano.dump"
+      description = "meterpreter reverse tcp session may be open"
       author = "yarGen Rule Generator"
       reference = "https://github.com/Neo23x0/yarGen"
       date = "2023-06-25"
