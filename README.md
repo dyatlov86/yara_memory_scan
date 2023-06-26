@@ -1,6 +1,6 @@
 # Process Memory Scanner
 
-The Process Memory Scanner is a Python script that scans the memory of running processes on a Linux system using YARA rules. It helps identify processes that match specific patterns defined by the YARA rules, making it useful for security analysis and research purposes. I have created the linux/x64/meterpreter/reverse_tcp payload, dumped its data on memory and created a yara rule (thanx to yarGen project) for that.
+The Process Memory Scanner is a Python script that scans the memory of running processes on a Linux system using YARA rules. It helps identify processes that match specific patterns defined by the YARA rules, making it useful for security analysis and research purposes. I have created the linux/x64/meterpreter/reverse_tcp payload, dumped its data on memory and created a yara rule (thanx to yarGen project) for that so its also obfuscation resistant.
 
 ## Prerequisites
 
