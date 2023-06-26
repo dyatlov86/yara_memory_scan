@@ -2,7 +2,6 @@
    YARA Rule Set
    Author: yarGen Rule Generator
    Date: 2023-06-25
-   Identifier: susp
    Reference: https://github.com/Neo23x0/yarGen
 */
 
